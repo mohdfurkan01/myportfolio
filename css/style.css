@@ -1,0 +1,76 @@
+.bg-black {
+  background-color: black;
+}
+
+
+img {
+  width: 95%;
+  height: 57.8%;
+    border-radius: 10px;
+}
+
+.para{
+  color: red;
+}
+.paragraph{
+  color: black;
+}
+
+.container {
+  height: 400px;
+}
+
+.btn {
+  height: 100px;
+  color: blue;
+}
+
+.gfg{
+  text-align: center;
+  color: red;
+}
+
+
+
+.font-div {
+  width: 30%;
+}
+
+/*
+ ////responsive/////
+ */
+
+@media only screen and (min-width: 1198px) {
+  .font-div {
+    padding: 38px 0px !important;
+  }
+}
+
+
+.card {
+  text-decoration-color: blue;
+}
+
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
